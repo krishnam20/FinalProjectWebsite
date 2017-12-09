@@ -16,12 +16,13 @@ a:link {
 
 a:hover { 
     background-color: #7FFFD4;
-    opacity: 0.9;
+    opacity: 0.5;
     filter: alpha(opacity=50)
 }
 
 a:visited { 
     color: #00BFFF;
+    opacity: 0.5;
 }
 
 img.background1 {
@@ -62,7 +63,7 @@ h1 {
 }
 
 .UserResearchTestingSubClass p{
-	font-size: 22px;
+	font-size: 26px;
 	font-weight: bold;
 	padding-right: 10px;
 	color: white;
@@ -74,13 +75,15 @@ h1 {
 
 .UserResearchTestingSubClassParagraph p{
 	font-size: 14px;
+	font-family: Arial;
 	padding-right: 10px;
 	color: white;
 	text-indent: 25px;
 	margin: 10px 10px 30px 10px; 
 	padding-top: 5px;
-	text-align: right;
-	letter-spacing: 1.5px;
+	text-align: left;
+	letter-spacing: 2.0px;
+	line-height: 1.5;
 }
 
 
